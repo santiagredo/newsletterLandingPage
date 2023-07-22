@@ -38,10 +38,14 @@ section {
 .container-hamburguer {
   width: 30px;
   height: 30px;
-  background-color: aqua;
+  background-image: url(../images/icon-menu.svg);
   position: absolute;
   top: 20px;
   right: 20px;
+}
+
+.cambio {
+  background-image: url(../images/icon-menu-close.svg);
 }
 
 .aparicion-menu {
