@@ -35,40 +35,48 @@
       <nav class="menu-principal">
         <ul class="lista-navbar">
           <li class="lista-item">
-            <a href="#" class="lista-item__link">Home</a>
+            <a href="#" class="lista-item__link opcion1">Home</a>
           </li>
           <li class="lista-item">
             <a href="#" class="lista-item__link">News</a>
           </li>
           <li class="lista-item">
-            <a href="#" class="lista-item__link">Popular</a>
+            <a href="#" class="lista-item__link opcion2">Popular</a>
           </li>
           <li class="lista-item">
-            <a href="#" class="lista-item__link">Trending</a>
+            <a href="#" class="lista-item__link opcion3">Trending</a>
           </li>
           <li class="lista-item">
-            <a href="#" class="lista-item__link">Categories</a>
+            <a href="#" class="lista-item__link opcion4">Categories</a>
           </li>
         </ul>
       </nav>
+      <div class="container-hamburguer">
+        <div class="icono-hamburguer1"></div>
+        <div class="icono-hamburguer2"></div>
+        <div class="icono-hamburguer3"></div>
+      </div>
     </header>
     <main>
       <section class="primera">
         <figure class="container-image">
-          <img
-            src="./assets/images/image-web-3-mobile.jpg"
-            alt=""
-            class="imagen-principal"
-          />
+          <div src="" class="imagen-principal"></div>
         </figure>
-        <h1 class="titulo-principal">The Bright Future of Web 3.0?</h1>
-        <p class="texto-principal">
-          We dive into the next evolution of the web that claims to put the
-          power of the platforms back into the hands of the people. But is it
-          really fulfilling its promise?
-        </p>
-        <button class="btn-principal">READ MORE</button>
+        <div class="contenedor-info">
+          <div class="titulo-primera">
+            <h1 class="titulo-principal">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="contenedor-info-primera">
+            <p class="texto-principal">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="btn-principal">READ MORE</button>
+          </div>
+        </div>
       </section>
+
       <section class="segunda">
         <h2 class="titulo-section2">New</h2>
         <div class="container-texto__section2">
@@ -103,11 +111,11 @@
               class="img-noticia"
             />
             <div class="noticia-info">
-              <p1 class="noticia-info__item">01</p1>
-              <p2 class="noticia-info__item">Reviving Retro PCs</p2>
-              <p3 class="noticia-info__item"
-                >What happens when old PCs are given modern upgrades?</p3
-              >
+              <p class="noticia-info__item1">01</p>
+              <p class="noticia-info__item2">Reviving Retro PCs</p>
+              <p class="noticia-info__item3">
+                What happens when old PCs are given modern upgrades?
+              </p>
             </div>
           </div>
           <div class="caja-noticias">
@@ -117,11 +125,11 @@
               class="img-noticia"
             />
             <div class="noticia-info">
-              <p1 class="noticia-info__item">02</p1>
-              <p2 class="noticia-info__item">Top 10 Laptops of 2022</p2>
-              <p3 class="noticia-info__item"
-                >Our best picks for various needs and budgets.</p3
-              >
+              <p class="noticia-info__item1">02</p>
+              <p class="noticia-info__item2">Top 10 Laptops of 2022</p>
+              <p class="noticia-info__item3">
+                Our best picks for various needs and budgets.
+              </p>
             </div>
           </div>
           <div class="caja-noticias">
@@ -131,11 +139,11 @@
               class="img-noticia"
             />
             <div class="noticia-info">
-              <p1 class="noticia-info__item">03</p1>
-              <p2 class="noticia-info__item">The Growth of Gaming</p2>
-              <p3 class="noticia-info__item"
-                >How the pandemic has sparked fresh opportunities.</p3
-              >
+              <p class="noticia-info__item1">03</p>
+              <p class="noticia-info__item2">The Growth of Gaming</p>
+              <p class="noticia-info__item3">
+                How the pandemic has sparked fresh opportunities.
+              </p>
             </div>
           </div>
         </div>
@@ -148,5 +156,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
